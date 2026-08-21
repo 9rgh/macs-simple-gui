@@ -1485,10 +1485,10 @@ local StarterGui = game:GetService("StarterGui")
 
 StarterGui:SetCore("SendNotification", {
     Title = "Loaded",
-    Text = "Mac's simple GUI loaded!",
+    Text = "Mac's simple GUI loaded!\nPress M to open/close!",
     Duration = 5
-})end
-end
+})
+
 
 updateUIScale()
 updateCrosshair()
